@@ -2,7 +2,7 @@
 
 ## Neural Network
 
-[Neural Network](https://github.com/kyopark2014/ML-Algorithms/blob/main/neural-network.md)에서는 Neural Network의 특징 및 Error Back Propagation을 이용하여 최적의 Weight를 찾기 위한 방법에 대해 설명합니다. 
+[Neural Network](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/neural-network.md)에서는 Neural Network의 특징 및 Error Back Propagation을 이용하여 최적의 Weight를 찾기 위한 방법에 대해 설명합니다. 
 
 ## Deep Learning 방법
 
@@ -19,7 +19,7 @@
 ### Loss Function 
 
 이진분류의 경우에는 binary_crossentropy를, 다중분류의 경우에는 categorical_crossentropy을 사용합니다. 또한, 만약 티셔츠를 (1,0,0,0,0,0,0,0,0,0)와 같이
-[one hot encoding](https://github.com/kyopark2014/ML-Algorithms/blob/main/embedding.md#one-hot-encoding)으로 표현된다면 아래와 같이 티셔츠는 -log(a1)으로 표현됩니다. 여기서는 Keras이 [손실함수 (Loss Function)](https://github.com/kyopark2014/ML-Algorithms/blob/main/loss-function.md)로 "sparse_categorical_crossentropy"을 사용합니다. "sparse"를 붙이면 one hot encoding을 처리하여 줍니다. 
+[one hot encoding](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/embedding.md#one-hot-encoding)으로 표현된다면 아래와 같이 티셔츠는 -log(a1)으로 표현됩니다. 여기서는 Keras이 [손실함수 (Loss Function)](https://github.com/kyopark2014/ML-Algorithms/blob/main/loss-function.md)로 "sparse_categorical_crossentropy"을 사용합니다. "sparse"를 붙이면 one hot encoding을 처리하여 줍니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/187072798-c115d22c-18d5-4c89-81a9-d51ee5849269.png)
 
@@ -58,7 +58,7 @@ model.summary()
 
 Optimizer는 [손실함수(Loss Function)](https://github.com/kyopark2014/ML-Algorithms/blob/main/loss-function.md)을 기반으로 네트워크 업데이트 방법을 결정합니다. Adam, RMSPrep 등이 있습니다. 
 
-[Gradient Descent](https://github.com/kyopark2014/ML-Algorithms/blob/main/stochastic-gradient-descent.md#gradient-descent)는 모든 데이터를 가지고 에러값을 찾은 후에 기울기를 구해서 Weight를 업데이트 합니다. [Stochastic Gradient Descent](https://github.com/kyopark2014/ML-Algorithms/blob/main/stochastic-gradient-descent.md)는 확율을 이용해서 속도를 개선합니다. Adam은 Momentum과 Step size를 모두 고려하여 가장 많이 사용되고 있습니다.
+[Gradient Descent](https://github.com/kyopark2014/ML-Algorithms/blob/main/stochastic-gradient-descent.md#gradient-descent)는 모든 데이터를 가지고 에러값을 찾은 후에 기울기를 구해서 Weight를 업데이트 합니다. [Stochastic Gradient Descent](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/stochastic-gradient-descent.md)는 확율을 이용해서 속도를 개선합니다. Adam은 Momentum과 Step size를 모두 고려하여 가장 많이 사용되고 있습니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/187076472-21b31bbd-3bbb-4f89-8e0a-b457bf11cc49.png)
 
@@ -158,7 +158,7 @@ NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Ma
 
 ### Classification 예제
 
-[deep_learnig.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/src/deep_learnig.ipynb)는 Fashion MNIST를 가지고 classification을 하는 deep learning 예제를 보여줍니다. 
+[deep_learnig.ipynb](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/src/deep_learnig.ipynb)는 Fashion MNIST를 가지고 classification을 하는 deep learning 예제를 보여줍니다. 
 
 1) Fassion MNIST 데이터를 로딩합니다. 
 
