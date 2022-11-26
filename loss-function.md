@@ -10,7 +10,7 @@
 - MulticlassClassification: Cross entropy loss function
 
 
-
+## 분류에서 손실함수 
 
 이진분류의 경우에는 binary_crossentropy를, 다중분류의 경우에는 categorical_crossentropy을 사용합니다. 또한, 만약 티셔츠를 (1,0,0,0,0,0,0,0,0,0)와 같이
 [one hot encoding](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/embedding.md#one-hot-encoding)으로 표현된다면 아래와 같이 티셔츠는 -log(a1)으로 표현됩니다. 여기서는 Keras이 [손실함수 (Loss Function)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/loss-function.md)로 "sparse_categorical_crossentropy"을 사용합니다. "sparse"를 붙이면 one hot encoding을 처리하여 줍니다. 
