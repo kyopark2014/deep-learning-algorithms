@@ -13,7 +13,7 @@ Deep learning은 아래와 같이 입력층, 은닉층, 출력을 가지고 있�
 - 은닉층(Hidden Layer): 모든 입력 노드부터 입력 값을 받아 가중합을 계산하고, 이 값을 활성 함수에 적용하여 출력층에 전달하는 층입니다.
 - 출력층(Output Layer): 신경망의 최종 결과값이 포함된 층입니다. 
 
-다수의 은닉층을 두면 다양한 비선형적 관계를 학습할 수 있는 장점이 있지만, 학습을 위한 연산량이 많아지고 기울기 소멸 문제가 발생할 수 있습니다. 이를 위해 Dropout, [ReLU 함수](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md#relu), 미니 배치 정규화등을 적용합니다. 
+다수의 은닉층을 두면 다양한 비선형적 관계를 학습할 수 있는 장점이 있지만, 학습을 위한 연산량이 많아지고 기울기 소멸 문제가 발생할 수 있습니다. 이를 위해 [Dropout](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md#dropout), [ReLU 함수](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md#relu), [배치 정규화](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md#batch-normalization)등을 적용합니다. 
 
 
 
