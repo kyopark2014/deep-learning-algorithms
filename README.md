@@ -1,10 +1,8 @@
 # Deep Learning Algorithms
 
-입력층과 출력층 사이에 은닉층이 여러 개 있는 신경망을 심층 신경망(Deep Neural Network, DNN)이라고 하며, 심층 신경망을 다른 이름으로 딥러닝이라고 합니다. 
+입력층과 출력층 사이에 은닉층이 여러 개 있는 신경망을 심층 신경망(Deep Neural Network, DNN)이라고 하며, 심층 신경망을 다른 이름으로 [딥러닝](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md)이라고 합니다. 
 
-- 입력층(Input Layer): 데이터를 받아들이는 층입니다.
-- 은닉층(Hidden Layer): 모든 입력 노드부터 입력 값을 받아 가중합을 계산하고, 이 값을 활성 함수에 적용하여 출력층에 전달하는 층입니다.
-- 출력층(Output Layer): 신경망의 최종 결과값이 포함된 층입니다. 
+
 
 ### Feed Forward Neural Network
 
