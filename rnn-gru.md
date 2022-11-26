@@ -2,7 +2,7 @@
 
 ## GRU 
 
-GRU(Gated Recurrent Unit)는 [LSTM](https://github.com/kyopark2014/ML-Algorithms/blob/main/rnn-lstm.md)과 흡사하지만 경량화된 모델입니다. 아래에서는 GRU의 셀의 구조를 보여주고 있습니다. 여기서, Activation function으로 빨간색은 sigmoid이고 파란색은 tanh 입니다. 
+GRU(Gated Recurrent Unit)는 [LSTM](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn-lstm.md)과 흡사하지만 경량화된 모델입니다. 아래에서는 GRU의 셀의 구조를 보여주고 있습니다. 여기서, Activation function으로 빨간색은 sigmoid이고 파란색은 tanh 입니다. 
 
 - Update Gate는 LSTM의 Forget Gate와 Input Gate 처럼 동작합니다. 
 - Reset Gate는 얼마나 많은 과거 정보를 삭제할지를 결정할 수 있습니다. 
@@ -10,7 +10,7 @@ GRU(Gated Recurrent Unit)는 [LSTM](https://github.com/kyopark2014/ML-Algorithms
 
 ![image](https://user-images.githubusercontent.com/52392004/188256227-e21516f9-456b-424d-b23c-02c4794e12b1.png)
 
-이것은 [LSTM](https://github.com/kyopark2014/ML-Algorithms/blob/main/rnn-lstm.md)의 Cell state가 없으며, update와 reset gate를 가지고 있습니다. 
+이것은 [LSTM](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn-lstm.md)의 Cell state가 없으며, update와 reset gate를 가지고 있습니다. 
 
 
 
