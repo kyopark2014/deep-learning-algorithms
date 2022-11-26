@@ -8,4 +8,5 @@
    
 - MulticlassClassification: Cross entropy loss function
 
+
 [Neural Network - Loss Function](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md#loss-function)에서는 신경망에서 손실함수를 사용하는 예를 보여주고 있습니다.
