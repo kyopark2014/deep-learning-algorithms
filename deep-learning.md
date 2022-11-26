@@ -4,13 +4,54 @@
 
 [Neural Network](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/neural-network.md)에서는 Neural Network의 특징 및 Error Back Propagation을 이용하여 최적의 Weight를 찾기 위한 방법에 대해 설명합니다. 
 
+
+## Deep Learning의 특징 
+
+Deep learning은 아래와 같이 입력층, 은닉층, 출력을 가지고 있습니다. 
+
+- 입력층(Input Layer): 데이터를 받아들이는 층입니다.
+- 은닉층(Hidden Layer): 모든 입력 노드부터 입력 값을 받아 가중합을 계산하고, 이 값을 활성 함수에 적용하여 출력층에 전달하는 층입니다.
+- 출력층(Output Layer): 신경망의 최종 결과값이 포함된 층입니다. 
+
+다수의 은닉층을 두면 다양한 비선형적 관계를 학습할 수 있는 장점이 있지만, 학습을 위한 연산량이 많아지고 기울기 소멸 문제가 발생할 수 있습니다. 이를 위해 Dropout, [ReLU 함수](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md#relu), 미니 배치 정규화등을 적용합니다. 
+
+
+
+
 ## Deep Learning 방법
 
-- Keras: TensorFlow2.0에서 내장 라이브러리로 사용, 사용 용이
-- TensorFlow: 산업계에서 선호, 구글이 만든 ML framework (2015), GPU 사용 용이하나 사용법이 복잡함 (함수 python 문법에서 제한이 있어 디버깅 불편)
-- CNTK: 마이크로소프트
-- theano: 학계
-- PyTorch: 함수형 Python 사용이 가능하여 디버깅 용이, 연구용으로 많이 사용
+- Keras: TensorFlow2.0에서 내장 라이브러리로 사용, 사용 용이합니다.
+- TensorFlow: 산업계에서 선호, 구글이 만든 ML framework (2015), GPU 사용 용이하나 사용법이 복잡합니다. (함수 python 문법에서 제한이 있어 디버깅 불편)
+- CNTK: 마이크로소프트에서 개발한 방법입니다.
+- theano: 학계에서 개발한 방법입니다.
+- PyTorch: 함수형 Python 사용이 가능하여 디버깅 용이, 연구용으로 많이 사용됩니다.
+
+
+## 기울기 소멸 문제
+
+출력층에서 은닉층으로 전달되는 오차가 크게 줄어들어 학습이 되지 않는 현상입니다. 은닉층이 많은 신경망에서 기울기 소멸문제가 발생하기 쉽습니다. 
+
+기울기 소멸문제는 [시그모이드](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md#sigmoid)나 [하이퍼볼릭 탄젠트](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md#tanh) 대신 [렐루](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md#relu) 활성화 함수를 사용하면 해결할 수 있습니다. 
+
+## 경사 하강법의 성능이 나빠지는 문제
+
+경사 하강법은 손실 함수의 비용이 최소가 되는 지점을 찾을 때까지 기울기가 낮은 쪽으로 계속 이동하는데, 오히려 성능이 나빠지는 문제가 있습니다.
+
+### Batch Gradient Descent
+
+배치 경사 하강법 (Batch Gradient Descent: BGD)은 전체 데이터셋에 대한 오류를 구한 후 기울기를 한번만 계산하여 모델의 파라미터를 업데이트 하는 방법입니다. 즉, 전체 훈련 데이터셋에 대해 가중치를 편미분하는 방법입니다. 
+
+한 스텝에 모든 훈련 데이터셋을 사용하므로 학습이 오래걸리는 단점이 있습니다.
+
+### Stocastic Gradient Descent
+
+[학률적 경사 하강법(Stocastic Gradient Descent: SGD)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/stochastic-gradient-descent.md)은 임의로 선택한 데이터에 대해 기울기를 계산하는 방법으로 적은 데이터를 사용하므로 빠른 계산이 가능합니다. 
+
+### Mini-batch Gradient Descent
+
+미니 배치 경사 하강법 (Mini-batch Gradient Descent)은 전체 데이터셋을 미니 배치로 여러개를 나누고, 미니 배치 한개마다 기울기를 구한 후 그것의 평균 기울기를 이용하여 모델을 업데이트해서 학습하는 방법입니다. 전체 데이터를 학습하는것보다 빠르며, 확률적 경사 하강법보다 안정적이라는 장점이 있습니다. 
+
+
 
 ## Deep Learning 용어 
 
@@ -45,7 +86,7 @@ model.summary()
 
 ### Optimizer 
 
-Optimizer는 [손실함수(Loss Function)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/loss-function.md)을 기반으로 네트워크 업데이트 방법을 결정합니다. Adam, RMSPrep 등이 있습니다. 
+확률적 경사 하강법의 파라미터 변경 폭이 불안정한 문제를 해결하기 위해, 학습속도와 운동량을 조정하는 옵티마이저를 사용합니다.  
 
 [Gradient Descent](https://github.com/kyopark2014/ML-Algorithms/blob/main/stochastic-gradient-descent.md#gradient-descent)는 모든 데이터를 가지고 에러값을 찾은 후에 기울기를 구해서 Weight를 업데이트 합니다. [Stochastic Gradient Descent](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/stochastic-gradient-descent.md)는 확율을 이용해서 속도를 개선합니다. Adam은 Momentum과 Step size를 모두 고려하여 가장 많이 사용되고 있습니다.
 
