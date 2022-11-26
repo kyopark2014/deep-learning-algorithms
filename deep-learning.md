@@ -256,7 +256,7 @@ Test dataset에 대한 결과는 아래와 같습니다.
 
 ## Deep Learning 실습
 
-[Deep Learning 실습](https://github.com/kyopark2014/ML-Algorithms/blob/main/deep-learning-keras.md)에서는 Fashion MNIST 데이터를 이용하여 Keras 실습에 대해 설명합니다. 
+[Deep Learning 실습](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning-keras.md)에서는 Fashion MNIST 데이터를 이용하여 Keras 실습에 대해 설명합니다. 
 
 
 ## Reference 
