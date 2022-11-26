@@ -4,7 +4,7 @@
 
 ## Recurrent Neural Network
 
-순환신경망(RNN)은 은닉층의 노드에서 활성화 함수를 통해 나온 결과값을 출력층 방향으로도 보내면서, 다시 은닉층 노드의 다음 계산의 입력으로 보냅니다. 이것은, [은닉층에서 활성화 함수를 지난 값은 오직 출력층 방향으로만 향햐는 신경망(Feed Forward Neural Network)](https://github.com/kyopark2014/ML-Algorithms/blob/main/neural-network.md)과 다릅니다. 아래 그림이 CELL이 hidden state를 저장하는것을 보여주고 있습니다. 하나의 노드는 자신뿐 아니라 같은 Layer의 다른 노드와도 순환하므로 셀이라는 용어로 아래처럼 표현합니다. 
+순환신경망(RNN)은 은닉층의 노드에서 활성화 함수를 통해 나온 결과값을 출력층 방향으로도 보내면서, 다시 은닉층 노드의 다음 계산의 입력으로 보냅니다. 이것은, [은닉층에서 활성화 함수를 지난 값은 오직 출력층 방향으로만 향햐는 신경망(Feed Forward Neural Network)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/neural-network.md)과 다릅니다. 아래 그림이 CELL이 hidden state를 저장하는것을 보여주고 있습니다. 하나의 노드는 자신뿐 아니라 같은 Layer의 다른 노드와도 순환하므로 셀이라는 용어로 아래처럼 표현합니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/188026554-8ea74097-a8e7-45c4-a44a-979fa85c6681.png)
 
@@ -38,13 +38,13 @@
 
 ## Embedding
 
-단어의 표현은 Fashion MNIST처럼 [One-Hot Encoding](https://github.com/kyopark2014/ML-Algorithms/blob/main/embedding.md#one-hot-encoding)을 사용할 수 있습니다. 하지만 이 경우에 어휘 사전의 Token수 만큼 배열의 크기를 정해야해서 데이터가 커지며. 의미 유사성, Collocation(같이 쓰임) 등을 포함 할 수 없습니다. 이를 개선하기 위해 [Embedding](https://github.com/kyopark2014/ML-Algorithms/blob/main/embedding.md)이 사용할 수 있습니다. 
+단어의 표현은 Fashion MNIST처럼 [One-Hot Encoding](https://github.com/kyopark2014/ML-Algorithms/blob/main/embedding.md#one-hot-encoding)을 사용할 수 있습니다. 하지만 이 경우에 어휘 사전의 Token수 만큼 배열의 크기를 정해야해서 데이터가 커지며. 의미 유사성, Collocation(같이 쓰임) 등을 포함 할 수 없습니다. 이를 개선하기 위해 [Embedding](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/embedding.md)이 사용할 수 있습니다. 
 
 
 
 ## 실습예제
 
-[Simple Neural Network로 영화리뷰(IMDB)를 이진분류](https://github.com/kyopark2014/ML-Algorithms/blob/main/rnn-simple.md)로 분석합니다. 
+[Simple Neural Network로 영화리뷰(IMDB)를 이진분류](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn-simple.md)로 분석합니다. 
 
 
 
