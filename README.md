@@ -2,11 +2,11 @@
 
 ### Feed Forward Neural Network
 
-[Deep Learning](https://github.com/kyopark2014/ML-Algorithms/blob/main/deep-learning.md)에서는 은닉층에서 활성화 함수를 지난 값이 오직 출력층 방향으로만 향햐는 신경망(Feed Forward Neural Network)에 대해 설명합니다. 
+[Deep Learning](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md)에서는 은닉층에서 활성화 함수를 지난 값이 오직 출력층 방향으로만 향햐는 신경망(Feed Forward Neural Network)에 대해 설명합니다. 
 
 ### Neural Network를 이용한 Image Classification
 
-[Deep Learning을 이용한 Image 분류](https://github.com/kyopark2014/ML-Algorithms/blob/main/image_classification.md)방법에 대해 설명합니다.
+[Deep Learning을 이용한 Image 분류](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/image_classification.md)방법에 대해 설명합니다.
 
 
 ### Recurrent Neural Network
