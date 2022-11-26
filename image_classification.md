@@ -1,7 +1,7 @@
 # Deep Learning 이용한 이미지 분류 (Image Classification)
 
 
-[Keras Model](https://github.com/kyopark2014/ML-Algorithms/blob/main/deep-learning.md#keras-model)을 이용하여 이미지를 분류하는 방법에 대해 설명합니다.
+[Keras Model](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md#keras-model)을 이용하여 이미지를 분류하는 방법에 대해 설명합니다.
 
 ## Convolutional Neural Network
 
@@ -59,7 +59,7 @@ model.add(keras.layers.Conv2D(32, kernel_size=3, activation='relu', padding='sam
 
 ### 구현된 코드 
 
-이를 [Code로 구현](https://github.com/kyopark2014/ML-Algorithms/blob/main/src/image_classification.ipynb)하면 아래와 같습니다. 
+이를 [Code로 구현](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/src/image_classification.ipynb)하면 아래와 같습니다. 
 
 1) Fashion MNIST를 읽어와서 전처리를 하고 Train/Test dataset을 아래처럼 생성합니다. 
 ```python
