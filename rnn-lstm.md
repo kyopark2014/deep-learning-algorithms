@@ -1,6 +1,6 @@
 # 순환신경망 - LSTM
 
-[Simple RNN 이용한 영화 리뷰](https://github.com/kyopark2014/ML-Algorithms/blob/main/rnn.md)에서 하나의 시퀀스안에는 여러개의 단어가 있고, 시퀀스의 길이는 time step의 길이와 같습니다. 병렬처리를 위해서는 시퀀스의 길이를 제한하게 되는데, 이때 시퀀스 길이보다 더 긴 시퀀스는 앞단을 자르고(default), 작은 시퀀스는 0으로 채웁니다(Padding). 이와같이 긴 리뷰는 긴 시퀀스를 가지고, 마지막 time step의 정보는 앞단의 정보를 얕은 수준으로 갖게 되는데, text 전체에 대한 이해도가 낮아지므로 LSTM, GRU가 개발되었습니다. 
+[Simple RNN 이용한 영화 리뷰](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn.md)에서 하나의 시퀀스안에는 여러개의 단어가 있고, 시퀀스의 길이는 time step의 길이와 같습니다. 병렬처리를 위해서는 시퀀스의 길이를 제한하게 되는데, 이때 시퀀스 길이보다 더 긴 시퀀스는 앞단을 자르고(default), 작은 시퀀스는 0으로 채웁니다(Padding). 이와같이 긴 리뷰는 긴 시퀀스를 가지고, 마지막 time step의 정보는 앞단의 정보를 얕은 수준으로 갖게 되는데, text 전체에 대한 이해도가 낮아지므로 LSTM, GRU가 개발되었습니다. 
 
 ## LSTM 
 
@@ -17,7 +17,7 @@ LSTM(Long Short-Term Memory)은 단기 기억을 오래 기억하기 위해 고�
 
 ## LTSM Sample
 
-[LSTM 상세코드](https://github.com/kyopark2014/ML-Algorithms/blob/main/src/rnn-ltsm.ipynb)를 아래에서 설명합니다.
+[LSTM 상세코드](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/src/rnn-ltsm.ipynb)를 아래에서 설명합니다.
 
 1) 데이터를 준비합니다. 
 
@@ -47,7 +47,7 @@ pad_sequences는 sample의 수가 maxlen(100)보다 작으면 0으로 padding을
 
 2) LTSM 모델을 만듧니다. 
 
-[Embedding](https://github.com/kyopark2014/ML-Algorithms/blob/main/rnn.md#embedding)적용후 8개의 neuron으로 LTSM을 정의합니다. 이진 분류이므로 output layer의 activation function으로 signoid를 사용합니다. keras.layers.Embedding (단어사전크기, 특징백터 사이즈,...,input_legth=입력 시퀀스 길이)로 표현합니다. 
+[Embedding](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn.md#embedding)적용후 8개의 neuron으로 LTSM을 정의합니다. 이진 분류이므로 output layer의 activation function으로 signoid를 사용합니다. keras.layers.Embedding (단어사전크기, 특징백터 사이즈,...,input_legth=입력 시퀀스 길이)로 표현합니다. 
 
 ```python
 from tensorflow import keras
@@ -85,7 +85,7 @@ _________________________________________________________________
 
 3) LTSM을 훈련시킵니다. 
 
-[Optimizer](https://github.com/kyopark2014/ML-Algorithms/blob/main/deep-learning.md#optimizer-%EA%B0%9C%EC%84%A0%EB%90%9C-gradient-descent-method)는 RMSprop이 기본적으로 사용되는 여기서는 leaning_rate를 1e-4를 쓰고 있습니다. (기본은 1.e-3)
+[Optimizer](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md#optimizer-%EA%B0%9C%EC%84%A0%EB%90%9C-gradient-descent-method)는 RMSprop이 기본적으로 사용되는 여기서는 leaning_rate를 1e-4를 쓰고 있습니다. (기본은 1.e-3)
 
 
 
