@@ -19,11 +19,7 @@
 
 크로스 엔트로피 오차(Cross Entropy Error: CEE)는 분류(Classification) 문제에서 one-hot encoding을 했을때만 사용하는 오차 계산법입니다. 분류에서 주로 사용하는 sigmoid 함수는 자연 상수 e때문에 평균 제곱 오차를 적용하면 매끄럽지 못한 그래프가 출력되어서 지역 최소점(Local minimum)에서 더이상 학습을 하지 못할 수 있습니다. 따라서 e에 반대되는 자연 로그를 출력값에 취합합니다. 
 
-
-
-
-
-## 분류에서 손실함수 
+### 분류에서 손실함수 
 
 이진분류의 경우에는 binary_crossentropy를, 다중분류의 경우에는 categorical_crossentropy을 사용합니다. 또한, 만약 티셔츠를 (1,0,0,0,0,0,0,0,0,0)와 같이
 [one hot encoding](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/embedding.md#one-hot-encoding)으로 표현된다면 아래와 같이 티셔츠는 -log(a1)으로 표현됩니다. 여기서는 Keras이 [손실함수 (Loss Function)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/loss-function.md)로 "sparse_categorical_crossentropy"을 사용합니다. "sparse"를 붙이면 one hot encoding을 처리하여 줍니다. 
