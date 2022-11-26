@@ -156,9 +156,9 @@ print(train_oh.shape)
 
 6) 순환신경망 훈련하기 
 
-- [Optimizer](https://github.com/kyopark2014/ML-Algorithms/blob/main/deep-learning.md#optimizer)는 RMSprop을 사용하는데, 이때 learning rate는 1e-4을 넣습니다. (기본값은 1e-3) learning rate를 낮은 값을 사용하면, 학습을 천천히하게 가장 적은 loss를 가지도록 훈련을 시킬 수 있습니다. 대신 속도가 느려집니다.  
+- [Optimizer](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md#optimizer)는 RMSprop을 사용하는데, 이때 learning rate는 1e-4을 넣습니다. (기본값은 1e-3) learning rate를 낮은 값을 사용하면, 학습을 천천히하게 가장 적은 loss를 가지도록 훈련을 시킬 수 있습니다. 대신 속도가 느려집니다.  
 
-- 이진분류이므로 [loss function](https://github.com/kyopark2014/ML-Algorithms/blob/main/deep-learning.md#%EC%86%90%EC%8B%A4%ED%95%A8%EC%88%98)은 binary_crossentropy를 사용합니다. 
+- 이진분류이므로 [loss function](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/deep-learning.md#%EC%86%90%EC%8B%A4%ED%95%A8%EC%88%98)은 binary_crossentropy를 사용합니다. 
 
 - accuracy가 높아지는 방향으로 훈련이 되도록 matric으로 "accuracy"를 설정합니다. 
 
