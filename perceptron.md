@@ -24,12 +24,14 @@ Perceptron을 이용해 AND, OR, NOT을 표현하면 아래와 같습니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/187052913-3f7a55e3-c494-426f-b478-290ad9a1ba91.png)
 
+XOR 게이트는 데이터가 비선형적으로 분리되기 때문에 제대로된 분류가 어렵습니다. 즉, 단층 퍼셉트론에서는 AND, OR 연산에 대해서는 학습이 가능하지만 XOR에 대해서는 학습이 불가능합니다. 
 
-### 활성함수 (Activation Function)
-
-[Activation Function](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md)에서는 신경망에서 사용하고 있는 다양한 Activation function에 대해 설명하고 있습니다.
 
 ## Multi Layer Perceptron
+
+단일 
+단일 퍼셉트론에서 
+
 
 Input (입력층), Hidden (은닉층), Output (출력층)의 3종류의 Layer들를 만들 수 있습니다. 
 
@@ -38,6 +40,10 @@ Input (입력층), Hidden (은닉층), Output (출력층)의 3종류의 Layer들
 
 Layer 구조를 통해 비선형 모델링이 가능합니다. 
 
+
+### 활성함수 (Activation Function)
+
+[Activation Function](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md)에서는 신경망에서 사용하고 있는 다양한 Activation function에 대해 설명하고 있습니다.
 
 
 #### Universal Approximation Theorem
