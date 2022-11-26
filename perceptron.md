@@ -29,8 +29,7 @@ XOR 게이트는 데이터가 비선형적으로 분리되기 때문에 제대�
 
 ## Multi Layer Perceptron
 
-단일 
-단일 퍼셉트론에서 
+단일 퍼셉트론에서 XOR 연산이 불가하므로, 입력층과 출력층 사이에 하나 이상의 중간층(은닉층)을 두어 비선형적으로 분리되는 데이터에 대해서도 학습이 가능하도록 다층 퍼셉트론이 고안되었습니다. 
 
 
 Input (입력층), Hidden (은닉층), Output (출력층)의 3종류의 Layer들를 만들 수 있습니다. 
@@ -51,3 +50,12 @@ Layer 구조를 통해 비선형 모델링이 가능합니다.
 - Boolean Function: 2 Layers
 - Continuous Function: 3 Layers
 - Arbitrary Function: 3 Layers
+
+
+## Reference
+
+[딥러닝 텐서플로 교과서 - 서지영, 길벗](https://github.com/gilbutITbook/080263)
+
+[혼자 공부하는 머신러닝+딥러닝](https://github.com/rickiepark/hg-mldl)
+
+
