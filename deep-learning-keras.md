@@ -149,7 +149,7 @@ model.add(keras.layers.Dense(100, activation='relu', name='hidden'))
 
 ## Optimizer
 
-아래는 Optimzer를 [Stochastic Gradient Descent](https://github.com/kyopark2014/ML-Algorithms/blob/main/classification.md#stochastic-gradient-descent)로 지정하는 예제입니다. 
+아래는 Optimzer를 [Stochastic Gradient Descent](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/stochastic-gradient-descent.md)로 지정하는 예제입니다. 
 
 ```python
 model.compile(optimizer='sgd', loss='sparse_categorical_crossentropy', metrics='accuracy')
