@@ -13,11 +13,11 @@
 
 순환신경망(Recurrent Neural Network)을 이용하여, 영화리뷰(Text)의 내용이 positive/negative인지 분류하는 예제를 설명합니다. 
 
-- [Simple 순환신경망](https://github.com/kyopark2014/ML-Algorithms/blob/main/rnn.md)에서는 가장 기본적인 RNN에 대해 설명합니다. 
+- [Simple 순환신경망](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn.md)에서는 가장 기본적인 RNN에 대해 설명합니다. 
 
-- [LSTM(Long Short-Term Memory)을 이용한 순환신경망](https://github.com/kyopark2014/ML-Algorithms/blob/main/rnn-lstm.md)에 대해 설명합니다.
+- [LSTM(Long Short-Term Memory)을 이용한 순환신경망](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn-lstm.md)에 대해 설명합니다.
 
-- [GRU(Gated Recurrent Unit)를 이용한 순환신경망](https://github.com/kyopark2014/ML-Algorithms/blob/main/rnn-gru.md)에 대해 설명합니다. 
+- [GRU(Gated Recurrent Unit)를 이용한 순환신경망](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn-gru.md)에 대해 설명합니다. 
 
 
 ## Reference
