@@ -4,6 +4,11 @@
 
 ![image](https://user-images.githubusercontent.com/52392004/193483464-1e0f6385-fe2a-4b88-b175-703a34872c06.png)
 
+
+합성곱 신경망은 이미지에서 객체, 얼굴, 장면을 인식하기 위해 패턴을 찾는데 특히 유용합니다. 대표적인 합성곱 신경망으로 LeNet-5와 AlexNet이 있으며, 층을 더 깊게 쌓은 신경망으로는 VGG, GoogLeNet, ResNet 등이 있습니다. 
+
+
+
 ## Reference 
 
 [딥러닝 텐서플로 교과서 - 서지영, 길벗](https://github.com/gilbutITbook/080263)
