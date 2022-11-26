@@ -12,9 +12,17 @@
 - theano: 학계
 - PyTorch: 함수형 Python 사용이 가능하여 디버깅 용이, 연구용으로 많이 사용
 
+### Weight
 
+가중치(Weight)는 입력값이 연산 결과에 미치는 영향력을 조절하는 요소입니다. 
 
-## Keras Model
+### Transfer Function
+
+전달함수(Transfer Function)은 가중합을 의미합니다. 각 노드에 들어오는 신호에 가중치를 곱하여 다음 노드로 전달되는데, 이 값들을 모두 더한 합계를 가중합이라고 합니다. 노드의 가중합이 계산되면 가중합을 활성화 함수로 보내기 때문에 전달함수라고도 합니다. 
+
+### Activation Function 
+
+활성화 함수(Activation Function)은 전달 함수에서 전달받은 값을 출력할 때, 일정 기준에 따라 출력 값을 변화시키는 비선형 함수입니다. [활성화 함수](https://github.com/kyopark2014/ML-Algorithms/blob/main/activation-function.md)에서 상세히 설명합니다. 
 
 ### Loss Function 
 
