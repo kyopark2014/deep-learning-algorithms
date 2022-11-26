@@ -12,6 +12,8 @@
 - theano: 학계
 - PyTorch: 함수형 Python 사용이 가능하여 디버깅 용이, 연구용으로 많이 사용
 
+## Deep Learning 용어 
+
 ### Weight
 
 가중치(Weight)는 입력값이 연산 결과에 미치는 영향력을 조절하는 요소입니다. 
