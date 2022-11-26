@@ -28,9 +28,7 @@
 
 ### Loss Function 
 
-[손실함수](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/loss-function.md)에서 
-model.fit(train_scaled, train_target, epochs=5, batch_size=32, verbose=1) ㅅㅏㅇ
-model.fit(train_scaled, train_target, epochs=5, batch_size=32, verbose=1) 
+[손실함수](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/loss-function.md)에서 상세하게 설명합니다.
 
 ### Activation Function
 
