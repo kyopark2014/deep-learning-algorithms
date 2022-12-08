@@ -23,6 +23,9 @@
 
 - [GRU(Gated Recurrent Unit)를 이용한 순환신경망](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/rnn-gru.md)에 대해 설명합니다. 
 
+### 자연어처리
+
+[natural-language-processing](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/natural-language-processing.md)에서는 자연어처리에 대해 설명합니다. 
 
 ## Reference
 
