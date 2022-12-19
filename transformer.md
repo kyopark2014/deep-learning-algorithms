@@ -1,6 +1,6 @@
-# Transformer
+# 트랜스포머(Transformer)
 
-## Transformer 란
+## Transformer
 
 - 2017년 구글이 제안한 Sequencee-to-sequence 모델입니다.
 - 자연어처리에서는 BERT나 GPT 같은 트랜스포머 기반 언어 모델이 좋은 성능을 내고 있습니다.
