@@ -14,47 +14,10 @@
 
 - 학습(Training)이란 출력이 정답에 가까워지도록 모델을 업데이트하는 과정입니다. 
 
-#### Token
-
-- 토큰(Token)은 자연어 처리 모델의 입력을 의미 합니다. 
-- 토큰은 문장(Sentence)보다 작은 단위입니다. 
-- 한 문장은 여러 개의 토큰으로 구성됩니다.
-- 토큰 분리 기준은 상황에 따라 다를 수 있습니다. 
-- 문장을 띄어쓰기만으로 나눌수도 있고, 의미의 최소 단위인 형태소(Morpheme) 단위로 나눌 수도 있습니다. 
-
-#### Tokenization
-
-- 토큰화 (Tokenization)는 문장을 토큰 시퀀스(Token Sequence)로 나누는 과정입니다. 
-
-#### Tokenizer 
-
-- 토크나이저 (Tokenizer)는 토큰화를 수행하는 프로그램입니다. 
-- BPE (Byte Pair Encoding), 워드피스(ㅈWorkpiece) 등이 있습니다. 
-- 대표적인 한국어 토크나이저로는 은전한닢(mecab), 꼬꼬마(kkma)등이 있습니다. 
-  - 언어 전문가들이 토큰화해 놓은 데이터를 학습에 최대한 전문적인 분석 결과와 비슷하게 토큰화를 수행합니다. 
-  - 토큰화뿐 아니라 품사부착(Part-Of-Speech tagging)까지 수행할 수 있습니다. 
-
-#### BPE
-
-- BPE(Byte-Pair Encoding)은 원래 정보를 압축하는 알고리즘으로 제안되었는데, 자연어 처리 모델에도 널리 쓰이는 토큰화 기법입니다. 
-- GPT 모델은 BPE 기법으로 토큰화를 수행합니다. 
-
-
-#### Wordpiece
-
-- BERT 모델은 BPE와 유사한 워드피스(Wordpiece)를 토크나이저로 사용합니다. 
-
-
-
-
 #### Data Loader
 
 - 데이터 로더(Data Loader)는 데이터를 배치(Batch) 단위로 모델에 밀어 넣어주는 역할을 합니다. 
 - 전체 데이터 가운데 일부 인스턴스를 뽑아 배치를 구성합니다. 
-
-
-
-
 
 #### Deep Learning
 
@@ -63,7 +26,13 @@
 - Deep이란 많은 은닉층(Hidden Layer)들을 사용한다는 의미입니다. 
 - 이미지 분류, 음성 인식 및 합성, 자연어 처리 등 다양한 분야에서 널리 쓰이고 있습니다. 
 
-#### Transfer Learning
+
+## Tokenization
+
+[토큰화 (Tokenization)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/tokenization.md)에 대해 설명합니다. 
+
+
+## Transfer Learning
 
 - 트랜스퍼 러닝(Transfer Learning)은 특정 태스크를 학습한 모델을 다른 태스크 수행에 재사용하는 기법입니다. 
 - 트랜스퍼 러닝을 적용하면 기존보다 모델의 학습 속도가 빨라지고 새로운 테스크를 더 잘할 수 있습니다. 
