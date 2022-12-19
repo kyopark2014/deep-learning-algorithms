@@ -27,7 +27,7 @@
 - 이미지 분류, 음성 인식 및 합성, 자연어 처리 등 다양한 분야에서 널리 쓰이고 있습니다. 
 
 
-## Tokenization
+## 토큰화 (Tokenization)
 
 [토큰화 (Tokenization)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/tokenization.md)에 대해 설명합니다. 
 
