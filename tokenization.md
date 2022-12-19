@@ -1,4 +1,4 @@
-# Tokenization
+# 토큰화 (Tokenization)
 
 토큰화 (Tokenization)는 문장을 토큰 시퀀스(Token Sequence)로 나누는 과정입니다. 
 
