@@ -65,9 +65,9 @@
 
 - 언어 모델의 최종 또는 중간 출력값을 가지고 다양한 태스크를 수행하는데, 출력값을 임베딩(Embedding) 또는 리프레젠테이션(Representation)이라고 합니다. 
 
-#### Trasnsfomer
+## Trasnsfomer
 
-[Transformer](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/transformer.md)에서 
+[Transformer](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/transformer.md)에 대해 설명합니다.
 
 
 ## 딥러닝 자연어 처리 모델 
