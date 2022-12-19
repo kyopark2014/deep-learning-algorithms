@@ -29,7 +29,7 @@
 
 ## 토큰화 (Tokenization)
 
-[토큰화 (Tokenization)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/tokenization.md)에 대해 설명합니다. 
+자연어 처리를 위해서는, 자연어 문장을 작은 단위인 토큰(Token)으로 분석하여야 합니다. [토큰화 (Tokenization)](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/tokenization.md)에 대해 설명합니다. 
 
 
 ## Transfer Learning
