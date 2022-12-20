@@ -21,7 +21,7 @@
 
 ## Transfomer Blocks
 
-![image](https://user-images.githubusercontent.com/52392004/208554880-fca04b78-1c7b-48ba-a5ac-51e26b305eb9.png)
+![image](https://user-images.githubusercontent.com/52392004/208555018-9c0a12ae-c6e4-4345-be55-bccc2baad2dd.png)
 
 ### Multi-head Attention
 
