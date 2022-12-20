@@ -21,6 +21,8 @@
 
 ## Transfomer Blocks
 
+![image](https://user-images.githubusercontent.com/52392004/208554880-fca04b78-1c7b-48ba-a5ac-51e26b305eb9.png)
+
 ### Multi-head Attention
 
 - 셀프 어텐션을 동시에 여러번 수행하는것을 가리킵니다. 
