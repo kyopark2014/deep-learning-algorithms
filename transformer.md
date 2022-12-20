@@ -73,4 +73,6 @@
 - 어텐션은 디코더쪽 RNN에 어텐션을 추가하는 방식을 초반에 입력된 단어가 잊어버리는 현상을 해결합니다. 
 - 어텐션은 디코더가 타깃 시퀀스를 생성할 때, 소스 시퀀스 전체에서 어떤 요소에 주목해야 할지를 알려줘서, 번역 품질이 떨어지는것을 막을 수 있습니다. 
 
+## Reference
 
+[Understanding the building blocks of transformers](https://medium.com/analytics-vidhya/understanding-the-building-blocks-of-transformers-c28484788d5a)
