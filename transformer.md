@@ -34,12 +34,14 @@
 
 ### Residual Connection
 
+- Transfomer Blocks 다이어그램의 "Add"에 해당합니다. 
 - 잔차 연결(Residual Connection)은 블록이나 레이어 계산을 건너뛰는 경로를 하나 두는것을 말합니다. 
 - 딥러닝 모델에서 레이어가 많아지면 모델을 업데이트하기 위한 신호(Gradient)가 전달되는 경로가 길어지기 때문에 학습이 어려운 경향이 있습니다. 
 - 잔차 연결은 모델 중간에 블록을 건너뛰는 경로를 설정함으로써 학습을 쉽게하는 효과가 있습니다. 
 
 ### Layer Normalization
 
+- Transfomer Blocks 다이어그램의 "Norm"에 해당합니다.
 - 레이어 정규화(Layer Normalization)란 미니 배치의 인스턴스별로 평균을 빼주고 표준편차를 나눠 정규화를 수행하는 기법입니다. 
 - 레이어 정규화를 수행하면 학습이 안정되고 속도가 빨라지는 효과가 있습니다. 
 
