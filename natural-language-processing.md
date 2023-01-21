@@ -82,7 +82,7 @@ BERT (Bidiectional Encoding Representation form Transformers)는 앞뒤 문맥�
 
 GPT (Generative Pre-trained Transformer)는 이전 문맥을 고려하여 자연스러운 다음 단어를 예측합니다. 
 
-
+[GPT-3](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/gpt3.md)를 참조합니다. 
 
 ## Downstram task의 학습 방식
 
