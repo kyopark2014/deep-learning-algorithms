@@ -8,7 +8,7 @@
  
 ### Sequencee-to-sequence
 
-- Sequencee-to-sequence란 특정 속성을 가진 시퀀스를 다른 속성의 시퀀스로 변환하는 작업니다. 
+- Sequencee-to-sequence란 특정 속성을 가진 시퀀스를 다른 속성의 시퀀스로 변환하는 작업입니다. 
 - 소스와 타깃의 길이가 다를수 있습니다. 
 - Sequencee-to-sequence 태스크를 수행하는 모델은 인코더와 디코더로 구성됩니다. 
   - 인코더는 소스 시퀀스의 정보를 압축해 디코더로 보내는 역할을 담당합니다.
