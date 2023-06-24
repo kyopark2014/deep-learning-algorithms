@@ -35,7 +35,7 @@ Deep learning은 아래와 같이 입력층, 은닉층, 출력을 가지고 있�
 
 ## 경사 하강법의 성능이 나빠지는 문제
 
-경사 하강법은 손실 함수의 비용이 최소가 되는 지점을 찾을 때까지 기울기가 낮은 쪽으로 계속 이동하는데, 오히려 성능이 나빠지는 문제가 있습니다.
+경사 하강법은 [손실 함수](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/loss-function.md)의 비용이 최소가 되는 지점을 찾을 때까지 기울기가 낮은 쪽으로 계속 이동하는데, 오히려 성능이 나빠지는 문제가 있습니다.
 
 ### Batch Gradient Descent
 
