@@ -38,11 +38,11 @@ Weight는 아래처럼 Error의 미분으로 표현됩니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/187074828-fe5c8079-49fa-4cfe-bad3-56f35a1231a9.png)
 
-[activation function](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/perceptron.md#%ED%99%9C%EC%84%B1%ED%95%A8%EC%88%98-activation-function)으로 signoid를 쓰면 미분값이 0.25가 됩니다. 
+[activation function](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/perceptron.md#%ED%99%9C%EC%84%B1%ED%95%A8%EC%88%98-activation-function)으로 sigmoid를 쓰면 미분값이 0.25가 됩니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/187074885-56f2531e-628a-4b55-8170-7714a17a011e.png)
 
-[Deep network](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/neural-network.md#deep-network)와 같이 layer가 증가하면, weight의 변화가 줄어서 더이상 학습이 안되어버리므로 signoid를 activation function으로 사용할 수 없게 됩니다. 이것을 Gradient vanishing problem이라고 합니다. 
+[Deep network](https://github.com/kyopark2014/deep-learning-algorithms/blob/main/neural-network.md#deep-network)와 같이 layer가 증가하면, weight의 변화가 줄어서 더이상 학습이 안되어버리므로 sigmoid를 activation function으로 사용할 수 없게 됩니다. 이것을 Gradient vanishing problem이라고 합니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/187074794-34a16dd4-83e4-4d23-9f8f-9cac583b8133.png)
 
